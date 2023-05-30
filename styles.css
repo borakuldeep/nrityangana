@@ -153,6 +153,7 @@ header .video-container::after {
 
 .desc {
   margin-left: 1rem;
+  margin-bottom: 10px;
 }
 
 .para .desc h1 {
@@ -165,7 +166,6 @@ header .video-container::after {
 }
 
 .vid {
-  margin-bottom: 1rem;
   max-width: 500px;
   border-radius: 10px;
 }
@@ -221,6 +221,7 @@ header .video-container::after {
   .vid {
     width: calc(100vw - 100px) !important;
     height: 250px;
+    margin-top: 5px;
   }
 }
 
