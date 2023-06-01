@@ -7,6 +7,8 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  background: #0c134f;
+  color: #eee4f8;
 }
 
 header {
@@ -86,15 +88,18 @@ header .container .showcase {
   width: 100%;
 }
 header .container .showcase h1 {
-  color: #fff;
-  font-size: 2.5rem;
+  color: #d4adfc;
+  font-size: 2rem;
   margin-bottom: 0;
   font-weight: 700;
   margin-bottom: 1rem;
+  border: 3px solid #d4adfc;
+  padding: 4px 10px;
+  border-radius: 8px;
 }
 header .container .showcase p {
   margin-top: 0;
-  color: #fff;
+  color: #eee4f8;
   font-weight: 500;
   line-height: 1.4;
   font-size: 0.9rem;
@@ -131,12 +136,8 @@ header .video-container::after {
   left: 0;
   height: 100%;
   width: 100%;
-  --background-color: rgba(0, 0, 0, 0.82);
 }
 
-.body {
-  padding: 3rem;
-}
 .content {
   display: flex;
   align-items: center;
@@ -147,7 +148,7 @@ header .video-container::after {
   display: flex;
   flex-direction: column;
   padding: 3rem;
-  color: rgb(13, 52, 124);
+  --color: rgb(13, 52, 124);
   width: 80%;
 }
 
@@ -168,6 +169,7 @@ header .video-container::after {
 .vid {
   max-width: 500px;
   border-radius: 10px;
+  border: 4px solid #d4adfc;
 }
 
 .yt {
